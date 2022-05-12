@@ -7,8 +7,13 @@
 }
 
 * {
+    margin: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
 }
 
 html, body {
@@ -19,6 +24,8 @@ header {
     background-color: var(--color-primary);
 color: var(--white);
 height: 60px;
+display: flex;
+align-items: center;
 
 
 }
@@ -33,7 +40,7 @@ nav h1 {
 font-size: 24px;
 font-weight: 700;
 
-nav a{
+nav a {
     font-size: 12px;
     font-weigth: 400;
 }
@@ -41,4 +48,14 @@ nav a{
 a, a:hover {
     text-decoration: none;
     color: unset;
+}
+
+.dsmovie-contact-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.dsmovie-contact-container img{
+    margin-right: 10px;
 }
