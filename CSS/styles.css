@@ -81,7 +81,7 @@ a, a:hover {
     align-items: center;
     justify-content: space-between;
     border-radius: 0 0 8px 8px; 
-    min-height: 150px;
+   min-height: 160px; 
       
 }
 .dsmovie-card-description h3 {
