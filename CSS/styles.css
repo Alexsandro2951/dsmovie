@@ -29,8 +29,6 @@ color: var(--white);
 height: 60px;
 display: flex;
 align-items: center;
-
-
 }
 
 nav {
@@ -42,12 +40,12 @@ justify-content: space-between;
 nav h1 {
 font-size: 24px;
 font-weight: 700;
-
+}
 nav a {
     font-size: 12px;
     font-weigth: 400;
 }
-}
+
 a, a:hover {
     text-decoration: none;
     color: unset;
@@ -63,7 +61,7 @@ a, a:hover {
 }
 
 #dsmovie-card-list {
-    padding: 40px 0;
+    padding: 40px 10px;
 }
 
 .dsmovie-card {
@@ -83,7 +81,7 @@ a, a:hover {
     align-items: center;
     justify-content: space-between;
     border-radius: 0 0 8px 8px; 
-    height: 210px; 
+    height: 190px; 
       
 }
 .dsmovie-card-description h3 {
